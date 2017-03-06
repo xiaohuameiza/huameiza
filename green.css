@@ -2,11 +2,11 @@ div,p,h1,ul,li,span,button,body{
   margin:0; padding:0;
 }
 .body-1{
-  background-color:gray;
-  heigth:auto;
+  background-color:#EBECEC;
+  height:auto;
 }
 .head{
-  background-color:#00d8f5;
+  background-color:#3D4F63;
   height:80px;
   box-shadow: 0 2px 5px #5a5b5c; 
 padding-left:50px;
@@ -33,29 +33,29 @@ text-align:center;
 }
 .it a{display:block;
   text-decoration:none;
-  color:#5e7173;
+  color:white;
   line-height: 50px;
   
 }
  .it li a:hover{
-  background-color:#00b7cf;
-  box-shadow:1px 2px 2px  #001214;
-   color:white;
+  background-color:#E64D3E;
+  box-shadow:1px 2px 2px  #162638;
+   color:#ECF0F1;
      text-decoration:none;
 }
 
-.meat{
+#meat{
   height:auto;
-  background-color:#5e7173;
+  background-color:#ECF0F1;
   margin: auto;
   max-width:1024px;
-  text-shadow:0 0.5px 1px #00363d;
+  
   box-shadow:0 1px 2px  #00363d;
 box-sizing:content-box;
 }
 
-.meat p{
-   color:white;
+#meat p{
+   color:#3D4F63;
    font-size:25px;
    width:50%;
    line-height:45px;
@@ -63,7 +63,7 @@ box-sizing:content-box;
    display: inline-block;
   margin-top:10px;
 }
-.meat img{
+#meat img{
 border-radius:50%;
   max-width:25%;
   margin:0px 80px;
@@ -72,21 +72,21 @@ border-radius:50%;
 }
 
 @media (min-width: 1023px) {
-   .meat {
+   #meat {
  padding:20px 20px;
   } 
 }
-.meat-portfolio{
+#meat-portfolio{
   font-size:30px;
   text-align:center;
   background:white;
   height:auto;
   margin: auto;
   max-width:1024px;
-  text-shadow:0 0.5px 1px #00363d;
-  color:#5e7173;
+  
+  color:#3D4F63;
   box-shadow:0 1px 2px  #00363d;
-  padding:50px 20px;
+  padding:10px 20px;
     box-sizing:content-box;
   }
 /* @media (min-width: 1023px){
@@ -101,14 +101,25 @@ margin-top:50px;
  box-shadow: 0 1px 10px #F6F6F6;
 
  }
- #xinjia li {
-  list-style:none;
-   margin: 20px 20px;
+.new-1 li{list-style:none;
+   margin: 100px 20px;
  display: inline-block; 
- box-shadow: 1px 1px 5px #F6F6F6;
+ box-shadow:1px 1px 8px #3D4F63;}
+ 
+ #xinjia-1 li {
+  
+   margin:50px 20px;
+   
+  }
 
- }
- #xinjia li img{
+ #xinjia-2 li {
+     margin:50px 20px;
+  }
+
+ #xinjia-3 li {
+margin:50px 20px;
+  }
+.new-1 li img{
   height:333.5px;
   width:187.5px; 
    max-width:100%;
@@ -120,24 +131,64 @@ margin-top:50px;
   height:500px;
   width:500px;
  }
-.meat-conact li{
+#meat-conact li{
   list-style:none;
   font-size:20px;
-  line-height:30px;
+  line-height:50px;
   text-align:center;
   text-shadow:none;
+
 }
 @media(max-width:1000px){
-  .meat-conact li{
+  #meat-conact li{
     font-size:50px;
     line-height:70px;
   }
 }
+
+#weixin {
+  position: relative;
+}
+
+
+     input{
+      display:none;
+    }
+
+    #gender+label{
+      background:url('weixin.jpg') ;
+      width:30px;
+      height:30px;
+      display:inline-block;
+      background-repeat:no-repeat;
+      background-size:cover;
+      position:relative;
+      top:4px;
+      
+    }
+    
+
+  #gender:checked+label{
+      background-image:url('weixin.jpg');
+      height: 275px;
+    width: 275px;
+    position: absolute;
+    top: -170px;
+    left: 50%;
+    margin-left: -137px;
+    z-index: 12;
+    }
+
 .zh{
-  background-color:#5e7173;
+  background-color:#ECF0F1;
   float:left;
   width:100%;
   padding:0 20%;
+}
+.zh div:hover{background-color:#E64D3E;
+  box-shadow:1px 2px 2px  #162638;
+  color:#ffffff;
+
 }
 .imge{
   background-color:white;
@@ -147,7 +198,7 @@ margin-top:50px;
   font-size:30px;
   text-align:center;
   line-height:100px;
-  color::#5e7173;
+  color:#3D4F63;
   float:left;
   margin: 25px 0px 25px 80px;
   
@@ -160,7 +211,7 @@ margin-top:50px;
   font-size:25px;
   text-align:center;
   line-height:100px;
-  color::#5e7173;
+  color:#3D4F63;
   float:left;
   margin: 25px 0px 25px 80px;
   }
@@ -172,12 +223,12 @@ margin-top:50px;
   font-size:20px;
   text-align:center;
   line-height:100px;
-  color::#5e7173;
+  color:#3D4F63;
   float:left;
   margin: 25px 0px 25px 80px;
   }
 .footer{
-    background-color:#00d8f5;
+    background-color:#3D4F63;
   height:80px;
   box-shadow: 0 2px 5px #5a5b5c; 
  min-width:400px;
@@ -185,7 +236,7 @@ margin-top:50px;
 }
 .last{
   color:white;
-  font-size:20px;
+  font-size:12px;
   text-align:center;
   line-height:80px;
 }
